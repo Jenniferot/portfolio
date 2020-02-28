@@ -1,0 +1,177 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 0;
+  color: white;
+}
+
+
+
+.label {
+  font-family: 'roboto';
+  font-size: 22px;
+  font-weight: 400;
+  color: rgb(252, 220, 220);
+}
+
+.name {
+  font-family: 'roboto';
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+  color: rgb(252, 220, 220);
+
+}
+
+.top-section {
+  background-color: rgb(255, 100, 100);
+  width: 100%;
+  height: 655px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-info {
+  margin-top: 10px;
+  margin-left: 60px;
+  width: 400px;
+  margin-bottom: -30px;
+}
+
+.header {
+  width: 90%;
+  margin-top: 80px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.circles {
+  border: 3px solid white;
+  border-radius: 50%;
+  margin: 5px;
+  height: 40px;
+  width: 40px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+}
+
+.portrait {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.portrait-image {
+  height: 240px;
+  width: 240px;
+  justify-content: flex-end;
+}
+
+.summary-section {
+  background-color: rgb(238, 238, 238);
+  width: 100%;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+}
+
+.decoration-wrapper {
+  width: 80px;
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  margin-right: 15px;
+  float: left;
+}
+
+.line {
+  width: 70px;
+  height: 4px;
+  background: red;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: red;
+  margin-left: -3px;
+}
+
+
+.presentation {
+  font-size: 20px;
+  margin-top: 46px;
+  font-family: 'montserrat';
+  font-size: 22px;
+  font-weight: 500;
+  width: 85%;
+  line-height: 40px;
+}
+
+.tech-section {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-labels {
+  color: white;
+  background-color: red;
+  font-family: 'Montserrat';
+  font-size: 30px;
+  font-weight: 700;
+  padding: 3px 20px;
+  margin: auto;
+}
+
+.tech-presentation {
+  font-size: 20px;
+  margin-bottom: 80px;
+  font-family: 'montserrat';
+  font-size: 22px;
+  font-weight: 500;
+  width: 85%;
+  line-height: 40px;
+  text-align: center;
+}
+
+.featured-projects-section {
+  padding-top: 80px;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-images {
+  width: 85%;
+  margin-top: 50px;
+  height: 100%;
+}
+
+.project-description {
+  font-weight: 600;
+  color: red;
+}
+
+.project-link {
+  font-weight: 600;
+  color: red;
+}
