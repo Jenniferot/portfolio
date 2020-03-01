@@ -284,7 +284,17 @@ body {
 }
 
 /* Skills-section */
-.section-labels {
+.skills-section {
+  padding-top: 60px;
+  background-color: rgb(238, 238, 238);
+  padding-left: 37px;
+  padding-right: 37px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-section-labels {
   color: white;
   background-color: red;
   font-family: 'Montserrat';
@@ -293,15 +303,6 @@ body {
   padding: 3px 11px;
   margin: 0;
   margin-bottom: 34px;
-}
-
-.skills-section {
-  padding-top: 60px;
-  background-color: rgb(238, 238, 238);
-  padding-left: 37px;
-  padding-right: 37px;
-  padding-bottom: 70px;
-  height: 774px;
 }
 
 .skills-title {
@@ -332,10 +333,129 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .right-section {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+}
+
+/* For more-section */
+.for-more-section {
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 58px;
+  padding-bottom: 56px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.for-more-info-section {
+  display: flex;
+  margin-top: -20px;
+}
+
+.icon-red {
+  height: 22px;
+  width: 22px;
+  padding-top: 17px;
+  padding-left: 18px;
+}
+
+.circles-red {
+  border: 3px solid red;
+  border-radius: 50%;
+  height: 58px;
+  width: 58px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.linkedin {
+  display: flex;
+  flex-direction: column;
+}
+
+.github {
+  display: flex;
+  flex-direction: column;
+}
+
+.stackoverflow {
+  display: flex;
+  flex-direction: column;
+}
+
+.for-more-info-textL {
+  color: red;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: avenir;
+  text-decoration: none;
+  margin-left: 25px;
+  margin-top: -8px;
+}
+
+.for-more-info-textG {
+  color: red;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: avenir;
+  text-decoration: none;
+  margin-top: -8px;
+  margin-left: 28px;
+}
+
+.for-more-info-textS {
+  color: red;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: avenir;
+  text-decoration: none;
+  margin-top: -8px;
+}
+
+/* Contact-section */
+.footer {
+  background-color: blue;
+  height: 170px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 58px;
+  padding-bottom: 56px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-title {
+  font-family: 'Montserrat';
+  font-size: 21px;
+  font-weight: 700;
+  padding: 3px 20px;
+  color: white;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.footer-name {
+  font-family: roboto;
+  font-size: 17px;
+  line-height: 29px;
+  color: white;
+  font-weight: 600;
+  margin: 0;
+}
+
+.footer-phone {
+  font-family: roboto;
+  font-size: 17px;
+  line-height: 29px;
+  color: white;
+  font-weight: regular;
+  margin: 0;
 }
