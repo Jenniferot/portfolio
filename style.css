@@ -295,6 +295,10 @@ header {
   margin-bottom: 20px;
 }
 
+.tc {
+  display: none;
+}
+
 .other-thoughts-section {
   display: flex;
   flex-direction: column;
@@ -465,7 +469,7 @@ ul {
   margin: 0;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 750px) {
   header {
     height: 600px;
     padding-left: 400px;
@@ -672,6 +676,14 @@ ul {
 
   .thoughts-card {
     margin: 30px;
+  }
+
+  .tc {
+    display: inline;
+  }
+
+  .hide {
+    display: none;
   }
 
   .projects-images {
