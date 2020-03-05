@@ -12,28 +12,27 @@
 </head>
 
 <body>
-  <section class="top-section">
+  <!-- Top-section -->
+  <header>
+    <!-- Social-media -->
     <div class="socialmediaHeader">
-      <a href="">
-        <div class="circles"><img class="icon" src="/assets/component (1).png" alt=""></div>
-      </a>
-      <a href="">
-        <div class="circles"><img class="icon" src="/assets/component.png" alt=""></div>
-      </a>
-      <a href="">
-        <div class="circles"><img class="icon" src="/assets/component (2).png" alt=""></div>
-      </a>
+      <a href="#"><img class="icon" src="/assets/component (1).png" alt=""></i></a>
+      <a href="#"><img class="icon" src="/assets/component.png" alt=""></a>
+      <a href="#"><img class="icon" src="/assets/component (2).png" alt=""></a>
     </div>
+    <!-- Info -->
     <section class="top-info">
       <p class="nameTitle"><span class="nameLabel">PORTFOLIO:</span><span class="name"> JENNIFER OUSBÄCK THORSÉN</span>
       </p>
       <h1 class="bigHeadline">frontend developer</h1>
       <h2 class="subHeadline">+ graphic designer</h2>
     </section>
+    <!-- Portrait -->
     <section class="portrait">
       <img class="portrait-image" src="/assets/Jrund.png" alt="">
     </section>
-  </section>
+  </header>
+  <!-- Summary-section -->
   <section class="summary-section">
     <div class="summary-container">
       <div class="decoration-wrapper">
@@ -42,121 +41,172 @@
       </div>
       <p class="presentation">
         Let's have fun with code. See what our very smart and very useless robots have in store for
-        you. Let's have fun with code. See what our very smart and very useless robots have in store for
-        you. Let's have fun with code. See what our very smart and very useless robots have in store for
-        you.
+        you. Let's have fun with code. See what our very smart and very useless robots have.
       </p>
     </div>
   </section>
+  <!-- Tech-section -->
   <section class="tech-section">
-    <p class="section-labels">TECH</p>
+    <h3 class="section-labels">TECH</h3>
     <p class="presentation centered">
       HTML, CSS, Flexbox, Javascript, ES6, have fun with code. See what our very smart—and very useless—robots have in
       store for you. Let's have fun with code.
     </p>
   </section>
+  <!-- Projects-section -->
   <section class="projects-section">
-    <p class="section-labels">FEATURED PROJECTS</p>
-    <img class="projects-images" src="assets/component (8).png">
-    <p class="project-description"><span class="project-title">WEATHER APP.</span> Let's have fun with code.
-      See
-      what our very smart and very useless robots have in store for you. <a href="#" class="project-link">
-        >></a> </p>
-    <div class="tech-labels-container"><a href="#" class="tech-labels">HTML5</a><a href="#"
-        class="tech-labels">CSS3</a><a href="#" class="tech-labels">SASS</a><a href="#" class="tech-labels">JAVASCRIPT
-        ES6</a>
-    </div>
-    <img class="projects-images" src="assets/component (8).png">
-    <p class="project-description"><span class="project-title">WEATHER APP.</span> Let's have fun with code.
-      See
-      what our very smart and very useless robots have in store for you. <a href="#" class="project-link">
-        >></a> </p>
-    <div class="tech-labels-container"><a href="#" class="tech-labels">HTML5</a><a href="#"
-        class="tech-labels">CSS3</a><a href="#" class="tech-labels">SASS</a><a href="#" class="tech-labels">JAVASCRIPT
-        ES6</a>
-    </div>
-    <p class="other-labels">OTHER PROJECTS</p>
-    <p class="project-description"><span class="project-title">WEATHER APP.</span> Let's have fun with code.
-      See what our very smart and very useless robots have in store for you. <a href="#" class="project-link">
-        >></a> </p>
-    <div class="tech-labels-container"><a href="#" class="tech-labels">HTML5</a><a href="#"
-        class="tech-labels">CSS3</a><a href="#" class="tech-labels">SASS</a><a href="#" class="tech-labels">JAVASCRIPT
-        ES6</a>
-    </div>
-    <p class="project-description"><span class="project-title">WEATHER APP.</span> Let's have fun with code.
-      See what our very smart and very useless robots have in store for you. <a href="#" class="project-link">
-        >></a> </p>
-    <div class="tech-labels-container"><a href="#" class="tech-labels">HTML5</a><a href="#"
-        class="tech-labels">CSS3</a><a href="#" class="tech-labels">SASS</a><a href="#" class="tech-labels">JAVASCRIPT
-        ES6</a>
-    </div>
-    <p class="project-description"><span class="project-title">WEATHER APP.</span> Let's have fun with code.
-      See what our very smart and very useless robots have in store for you. <a href="#" class="project-link">
-        >></a> </p>
-    <div class="tech-labels-container"><a href="#" class="tech-labels">HTML5</a><a href="#"
-        class="tech-labels">CSS3</a><a href="#" class="tech-labels">SASS</a><a href="#" class="tech-labels">JAVASCRIPT
-        ES6</a>
-    </div>
+    <h3 class="section-labels">FEATURED PROJECTS</h3>
+    <section class="project-cards">
+      <article onclick="window.location='#';" class="project-card">
+        <div class="project-card-text">HELLO WORLD</div>
+        <!--<img class="projects-images"
+      src="assets/component (8).png" alt="image of project">-->
+        <div class="project-description-text">
+          <p class="project-description"><span class="project-title">WEATHER APP.</span> Let's have fun with code.
+            See what our smart and very useless robots have in store for you. <a href="#" class="project-link">>></a>
+          </p>
+          <div class="tech-labels-container"><a href="#" class="tech-labels">HTML5</a>
+            <a href="#" class="tech-labels">CSS3</a><a href="#" class="tech-labels">SASS</a>
+            <a href="#" class="tech-labels">JAVASCRIPT ES6</a>
+          </div>
+        </div>
+      </article>
+      <article onclick="window.location='#';" class="project-card">
+        <div class="project-card-text">HELLO WORLD</div>
+        <!--<img class="projects-images"
+      src="assets/component (8).png" alt="image of project">-->
+        <div class="project-description-text">
+          <p class="project-description"><span class="project-title">WEATHER APP.</span> Let's have fun with code.
+            See what our smart and very useless robots have in store for you. <a href="#" class="project-link">>></a>
+          </p>
+          <div class="tech-labels-container"><a href="#" class="tech-labels">HTML5</a>
+            <a href="#" class="tech-labels">CSS3</a><a href="#" class="tech-labels">SASS</a>
+            <a href="#" class="tech-labels">JAVASCRIPT ES6</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+
+    <!-- Other-projects-section -->
+    <h3 class="other-labels">OTHER PROJECTS</h3>
+    <article onclick="window.location='#';" class="other-project-card">
+      <p class="project-description"><span class="project-title">WEATHER APP.</span> Let's have fun with code.
+        See what our very smart and very useless robots have in store. <a href="#" class="project-link">
+          >></a> </p>
+      <div class="tech-labels-container"><a href="#" class="tech-labels">HTML5</a><a href="#"
+          class="tech-labels">CSS3</a><a href="#" class="tech-labels">SASS</a><a href="#" class="tech-labels">JAVASCRIPT
+          ES6</a>
+      </div>
+    </article>
+
+    <article onclick="window.location='#';" class="other-project-card">
+      <p class="project-description"><span class="project-title">WEATHER APP.</span> Let's have fun with code.
+        See what our very smart and very useless robots have in store. <a href="#" class="project-link">
+          >></a> </p>
+      <div class="tech-labels-container"><a href="#" class="tech-labels">HTML5</a><a href="#"
+          class="tech-labels">CSS3</a><a href="#" class="tech-labels">SASS</a><a href="#" class="tech-labels">JAVASCRIPT
+          ES6</a>
+      </div>
+    </article>
+
+    <article onclick="window.location='#';" class="other-project-card">
+      <p class="project-description"><span class="project-title">WEATHER APP.</span> Let's have fun with code.
+        See what our very smart and very useless robots have in store. <a href="#" class="project-link">
+          >></a> </p>
+      <div class="tech-labels-container"><a href="#" class="tech-labels">HTML5</a><a href="#"
+          class="tech-labels">CSS3</a><a href="#" class="tech-labels">SASS</a><a href="#" class="tech-labels">JAVASCRIPT
+          ES6</a>
+      </div>
+    </article>
+
   </section>
+
+  <!-- Thoughts-section -->
   <section class="thoughts-section">
-    <p class="section-labels">MY THOUGHTS</p>
-    <img class="projects-images" src="assets/component (9).png">
-    <div class="date thoughtdate">JAN 2020</div>
-    <p class="thoughts-title">How to stop being scared: Learning to love code</p>
-    <p class="thoughts-description">Let's have fun with code. See what our very smart and very useless robots have
-      in store for you. Let's have fun with code. See what our very smart and very useless robots have in store for
-      you. Let's have fun with code. See what our very smart and very useless robots have in store for
-      you. <a href="#" class="project-link">>></a>
-    </p>
-    <p class="other-labels">MORE THOUGHTS</p>
-    <p class="more-thoughts-description"><span class="date">JAN 2020.</span> Let's have fun with
-      code. See what our very smart. <a href="#" class="project-link">
-        >></a> </p>
-    <p class="more-thoughts-description"><span class="date">JAN 2020.</span> Let's have fun with
-      code. See what our very smart. <a href="#" class="project-link">
-        >></a> </p>
-    <p class="more-thoughts-description"><span class="date">JAN 2020.</span> Let's have fun with
-      code. See what our very smart. <a href="#" class="project-link">
-        >></a> </p>
-  </section>
-  <section class="skills-section">
-    <p class="section-labels">SKILLS</p>
-    <section class="left-right-section">
-      <section class="left-section">
-        <p class="skills-title">CODE</p>
-        <p class="skills">HTML5</p>
-        <p class="skills">CSS3</p>
-        <p class="skills">Javascript ES6</p>
-        <p class="skills">REACT</p>
-        <p class="skills">SASS</p>
-        <p class="skills">GitHub</p>
-        <p class="skills">Node.js</p>
-        <p class="skills-title">UPCOMING</p>
-        <p class="skills">Redux</p>
+    <h3 class="section-labels">MY THOUGHTS</h3>
+    <section class="thoughts-cards">
+
+      <section class="thoughts-card">
+        <img class="projects-images" src="assets/component (9).png" alt="image of project">
+        <div class="date thoughtdate">JAN 2020</div>
+        <p class="thoughts-title">How to stop being scared: Learning to love code</p>
+        <p class="thoughts-description">Let's have fun with code. See what our very smart and very useless robots have
+          in store for you. Let's have fun with code. See what our very smart and very useless robots have in store for
+          you. Let's have fun with code. See what our very smart and very useless robots have in store for
+          you. <a href="#" class="project-link">>></a>
+        </p>
       </section>
-      <section class="right-section">
-        <p class="skills-title">TOOLBOX</p>
-        <p class="skills">Atom</p>
-        <p class="skills">Postman</p>
-        <p class="skills">Photoshop</p>
-        <p class="skills">Illustrator</p>
-        <p class="skills">EXCEL</p>
-        <p class="skills">Keynote</p>
-        <p class="skills">Slack</p>
-        <p class="skills-title">MORE</p>
-        <p class="skills">Design Lead</p>
-        <p class="skills">Branding</p>
-        <p class="skills">Strategy</p>
-        <p class="skills">Process design</p>
-        <p class="skills">Concept</p>
-        <p class="skills">Agile methodology</p>
-        <p class="skills">Technigo</p>
-        <p class="skills">Toolbox</p>
+      <section class="thoughts-card">
+        <img class="projects-images" src="assets/component (9).png" alt="image of project">
+        <div class="date thoughtdate">JAN 2020</div>
+        <p class="thoughts-title">How to stop being scared: Learning to love code</p>
+        <p class="thoughts-description">Let's have fun with code. See what our very smart and very useless robots have
+          in store for you. Let's have fun with code. See what our very smart and very useless robots have in store for
+          you. Let's have fun with code. See what our very smart and very useless robots have in store for
+          you. <a href="#" class="project-link">>></a>
+        </p>
       </section>
     </section>
+
+
+
+    <h3 class="other-labels">MORE THOUGHTS</h3>
+    <p class="more-thoughts-description"><span class="date">JAN 2020.</span> Let's have fun with
+      code. See what our very smart. Let's have fun with
+      code. See what our very smart. <a href="#" class="project-link">
+        >></a> </p>
+    <p class="more-thoughts-description"><span class="date">JAN 2020.</span> Let's have fun with
+      code. See what our very smart. Let's have fun with
+      code. See what our very smart. <a href="#" class="project-link">
+        >></a> </p>
+    <p class="more-thoughts-description"><span class="date">JAN 2020.</span> Let's have fun with
+      code. See what our very smart. Let's have fun with
+      code. See what our very smart. <a href="#" class="project-link">
+        >></a> </p>
   </section>
+  <!-- Skills-section -->
+  <section class="skills-section">
+    <h3 class="section-labels">SKILLS</h3>
+    <article class="list-section">
+      <ul>
+        <p class="skills-title">CODE</p>
+        <li class="skills">HTML5</li>
+        <li class="skills">CSS3</li>
+        <li class="skills">Javascript ES6</li>
+        <li class="skills">REACT</li>
+        <li class="skills">SASS</li>
+        <li class="skills">GitHub</li>
+        <li class="skills">Node.js</li>
+        <p class="skills-title">UPCOMING</p>
+        <li class="skills">Redux</li>
+      </ul>
+      <ul>
+        <p class="skills-title">TOOLBOX</p>
+        <li class="skills">Atom</li>
+        <li class="skills">Postman</li>
+        <li class="skills">Adobe Photoshop</li>
+        <li class="skills">Illustrator</li>
+        <li class="skills">EXCEL</li>
+        <li class="skills">Keynote</li>
+        <li class="skills">Slack</li>
+      </ul>
+      <ul>
+        <p class="skills-title">MORE</p>
+        <li class="skills">Design Lead</li>
+        <li class="skills">Branding</li>
+        <li class="skills">Strategy</li>
+        <li class="skills">Process design</li>
+        <li class="skills">Concept</li>
+        <li class="skills">Agile methodology</li>
+        <li class="skills">Technigo</li>
+        <li class="skills">Toolbox</li>
+      </ul>
+    </article>
+  </section>
+  <!-- More-section -->
   <section class="for-more-section">
-    <p class="section-labels">FOR MORE</p>
+    <h3 class="section-labels">FOR MORE</h3>
     <section class="for-more-info-section">
       <section class="linkedin">
         <a href="">
@@ -181,11 +231,12 @@
       </section>
     </section>
   </section>
+  <!-- Footer-section -->
   <section class="footer">
     <p class="contact-title">CONTACT</p>
     <p class="footer-name">Jennifer Thorsén</p>
-    <p class="footer-phone">+46 73 98 21 600</p>
-    <p class="footer-phone">name@email.com</p>
+    <p class="footer-name">+46 73 98 21 600</p>
+    <p class="footer-name">name@email.com</p>
   </section>
 
 
