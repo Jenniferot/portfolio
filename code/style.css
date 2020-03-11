@@ -34,8 +34,8 @@ header {
 .icon {
   height: 17px;
   width: 17px;
-  padding: 7px;
-  margin: 3px;
+  padding: 5px;
+  margin: 4px;
 }
 
 /* Namn + titel */
@@ -188,7 +188,7 @@ header {
 .project-card {
   display: flex;
   flex-direction: column;
-  background-image: url('assets/component (8).png');
+  background-image: url('assets/component(8).png');
   background-repeat: no-repeat;
 }
 
@@ -828,6 +828,4 @@ ul {
     line-height: 50px;
     margin: 0;
   }
-
-  /*
-@media (max-width: 900px) and (min-width: 651px) {}*/
+}
