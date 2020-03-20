@@ -188,11 +188,13 @@ header {
 .project-card {
   display: flex;
   flex-direction: column;
-  background-image: url('assets/component(8).png');
   background-repeat: no-repeat;
 }
 
 .project-card-text {
+  background-image: url('assets/component(8).png');
+  background-repeat: no-repeat;
+  background-size: contain;
   font-family: 'montserrat';
   font-size: 16px;
   line-height: 19px;
@@ -200,10 +202,11 @@ header {
   font-weight: bold;
   text-align: center;
   padding-top: 90px;
+  height: 100px;
 }
 
 .project-description-text {
-  margin-top: 70px;
+  margin-top: 10px;
 }
 
 .project-title {
@@ -469,7 +472,7 @@ ul {
   margin: 0;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 800px) {
   header {
     height: 600px;
     padding-left: 400px;
@@ -827,5 +830,6 @@ ul {
     font-size: 30px;
     line-height: 50px;
     margin: 0;
+    height: 200px;
   }
 }
