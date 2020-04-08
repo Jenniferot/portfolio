@@ -5,6 +5,7 @@ body {
 /* Bakgrundsbild eller färg */
 header {
   background-color: rgb(255, 100, 100);
+  background-image: url(assets/IMG_7370.JPG);
   height: 508px;
   display: flex;
   flex-direction: column;
@@ -137,7 +138,7 @@ header {
   font-family: 'montserrat';
   font-weight: regular;
   line-height: 29px;
-  margin-bottom: 0;
+  margin-bottom: 10;
   margin-top: 0;
 }
 
@@ -192,9 +193,8 @@ header {
 }
 
 .project-card-text {
-  background-image: url('assets/component(8).png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   font-family: 'montserrat';
   font-size: 16px;
   line-height: 19px;
@@ -202,7 +202,8 @@ header {
   font-weight: bold;
   text-align: center;
   padding-top: 90px;
-  height: 100px;
+  height: 200px;
+  background-color: aqua;
 }
 
 .project-description-text {
@@ -259,6 +260,10 @@ header {
 
 /* Thoughts-section */
 
+.projects-images {
+  width: 100%;
+}
+
 .thoughts-section {
   padding-left: 36px;
   padding-right: 36px;
@@ -287,6 +292,7 @@ header {
   font-size: 21px;
   line-height: 32px;
   margin-bottom: 0px;
+  margin-right: 36px;
 }
 
 .thoughts-description {
@@ -472,7 +478,7 @@ ul {
   margin: 0;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1250px) {
   header {
     height: 600px;
     padding-left: 400px;
@@ -609,7 +615,7 @@ ul {
   .project-card {
     background-image: url('assets/component (8).png');
     background-repeat: no-repeat;
-    background-size: 520px;
+    background-size: 100%;
     margin: 30px;
   }
 
@@ -620,7 +626,7 @@ ul {
 
   .project-description-text {
     width: 520px;
-    margin-top: 140px;
+    margin-top: 10px;
   }
 
   .project-title {
@@ -758,6 +764,10 @@ ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+  }
+
+  .more-thoughts-description {
+    width: 100%;
   }
 
   .skills {
