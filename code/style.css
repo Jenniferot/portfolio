@@ -96,7 +96,6 @@ header {
   justify-content: flex-end;
 }
 
-
 /* Summary-section */
 .summary-section {
   background-color: rgb(238, 238, 238);
@@ -182,6 +181,10 @@ header {
   align-items: center;
 }
 
+a {
+  color: black;
+}
+
 .project-cards {
   display: flex;
   flex-direction: column;
@@ -205,11 +208,11 @@ header {
   padding-top: 110px;
   padding-bottom: 110px;
   height: 200px;
-  background-color: aqua;
 }
 
 .project-description-text {
   margin-top: 10px;
+
 }
 
 .project-title {
@@ -225,6 +228,7 @@ header {
   font-size: 17px;
   line-height: 29px;
   font-weight: 300px;
+  text-decoration: none;
 }
 
 .project-link {
@@ -480,6 +484,12 @@ ul {
   margin: 0;
 }
 
+@media (min-width: 527px) {
+  .portrait {
+    margin-top: 100px;
+  }
+}
+
 @media (min-width: 1300px) {
   header {
     height: 600px;
@@ -489,7 +499,7 @@ ul {
 
   /* Sociala medier */
   .socialmediaHeader {
-    margin-top: 75px;
+    margin-top: 95px;
   }
 
   .socialmediaHeader a {
@@ -615,8 +625,6 @@ ul {
   }
 
   .project-card {
-    background-image: url('assets/component (8).png');
-    background-repeat: no-repeat;
     background-size: 100%;
     margin: 30px;
   }
