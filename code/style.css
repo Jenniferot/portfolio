@@ -212,7 +212,6 @@ a {
 
 .project-description-text {
   margin-top: 10px;
-
 }
 
 .project-title {
@@ -265,7 +264,6 @@ a {
 }
 
 /* Thoughts-section */
-
 .projects-images {
   width: 100%;
 }
@@ -304,8 +302,8 @@ a {
 .thoughts-description {
   font-family: 'roboto';
   font-size: 17px;
-  font-weight: 300;
-  line-height: 32px;
+  font-weight: 400;
+  line-height: 26px;
   margin: 0;
   margin-bottom: 20px;
 }
