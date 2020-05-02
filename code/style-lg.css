@@ -1,0 +1,35 @@
+.page-navigation {
+  justify-self: flex-end;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid white;
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+/* decoration items for beginning paragraphs */
+.decoration-wrapper {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+  float: left;
+  margin-top: 24px;
+}
+
+.line {
+  width: 46px;
+  height: 3px;
+  background: rgb(255, 157, 150);
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgb(255, 157, 150);
+  margin-left: -3px;
+}
