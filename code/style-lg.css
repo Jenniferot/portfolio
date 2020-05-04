@@ -8,27 +8,3 @@
   margin-left: 20%;
   margin-right: 20%;
 }
-
-/* decoration items for beginning paragraphs */
-.decoration-wrapper {
-  width: 60px;
-  display: flex;
-  align-items: center;
-  margin-right: 12px;
-  float: left;
-  margin-top: 62px;
-}
-
-.line {
-  width: 56px;
-  height: 4px;
-  background: darkslategray;
-}
-
-.circle {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: darkslategray;
-  margin-left: -3px;
-}

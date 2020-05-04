@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" type="text/css">
-  <link rel="stylesheet" media="(min-width:601px)" href="style-lg.css" type="text/css">
+  <link rel="stylesheet" media="(min-width:1000px)" href="style-lg.css" type="text/css">
+  <link rel="stylesheet" href="style-m.css" type="text/css">
   <link rel="stylesheet" media="(max-width:600px)" href="style-sm.css" type="text/css">
   <link
     href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
@@ -20,14 +21,14 @@
       <div class="top-link-container">
         <div class="social-media-link-header"
           onClick="window.open('https://www.linkedin.com/in/jennifer-ousback-thorsen/')">
-          <img class="icon-header" src="assets/iconmonstr-linkedin-1-1.svg" /></div>
+          <img class="icon-header" src="assets/iconmonstr-linkedin-1-1.svg" alt="linkedin" /></div>
         <div>
           <div class="social-media-link-header" onClick="window.open('https://github.com/Jenniferot')"><img
-              class="icon-header" src="assets/github-1.svg"></div>
+              class="icon-header" src="assets/github-1.svg" alt="github"></div>
         </div>
         <div>
           <div class="social-media-link-header" onClick="window.open('https://stackoverflow.com/c/technigo/users/68')">
-            <img class="icon-header" src="assets/slack 2.svg"></div>
+            <img class="icon-header" src="assets/slack 2.svg" alt="stackoverflow"></div>
         </div>
       </div>
       <div id="about" name="about" class="about">
@@ -84,7 +85,8 @@
       </div>
 
       <div class="project" onClick="window.open('https://github.com/Jenniferot/project-movies')">
-        <div class="project-image-container"><img class="project-image" src="assets/NYProject-Movies2.jpg"></div>
+        <div class="project-image-container"><img class="project-image" src="assets/NYProject-Movies2.jpg"
+            alt="Project-Movies"></div>
         <div class="project-description"><span class="bold">POPULAR MOVIES SITE.</span> A multi-page React application
           that shows the most popular movies in the US. Built in React using useState, useEffects, Route, Switch and
           BrowserRouter to enable the functionality in this project. <a class="project-link"
@@ -98,7 +100,8 @@
       </div>
 
       <div class="project" onClick="window.open('https://github.com/Jenniferot/project-react-native-app')">
-        <div class="project-image-container"><img class="project-image" src="assets/NYVirus.png"></div>
+        <div class="project-image-container"><img class="project-image" src="assets/NYVirus.png" alt="Project-Native">
+        </div>
         <div class="project-description"><span class="bold">QUARANTINE ACTIVITY GENERATOR.</span> An app bulit in react
           native, using react navigation to navigate to another page, and styled components for styling. <a
             class="project-link" href="https://github.com/Jenniferot/project-react-native-app">>></a></div>
@@ -111,7 +114,8 @@
 
 
       <div class="project" onClick="window.open('https://github.com/Jenniferot/project-todos')">
-        <div class="project-image-container"><img class="project-image" src="assets/NYTodo.jpg"></div>
+        <div class="project-image-container"><img class="project-image" src="assets/NYTodo.jpg" alt="Project-ToDo">
+        </div>
         <div class="project-description"><span class="bold">TODO APP.</span> A ToDo-list that list todo-tasks. Marked as
           complete or uncomplete with a counter. Duedate and categories can be choosen. The list can be filtered by
           category. <a class="project-link" href="https://github.com/Jenniferot/project-todos">>></a>
@@ -125,7 +129,8 @@
       </div>
 
       <div class="project" onClick="window.open('https://github.com/Jenniferot/project-cluedo')">
-        <div class="project-image-container"><img class="project-image" src="assets/NYProject-Cluedo.jpg"></div>
+        <div class="project-image-container"><img class="project-image" src="assets/NYProject-Cluedo.jpg"
+            alt="Project-Cluedo"></div>
         <div class="project-description"><span class="bold">CLUEDO.</span> This project was to recreate parts of the
           classic board game Cluedo. One of the first projects built with Javascript. <a class="project-link"
             href="https://github.com/Jenniferot/project-cluedo">>></a></div>
@@ -228,7 +233,7 @@
       </div>
 
       <div class="thought">
-        <div class="thought-image-container"><img class="thought-image" src="assets/heart1.jpg"
+        <div class="thought-image-container"><img class="thought-image" src="assets/heart1.jpg" alt="thoughts-image"
             onClick="window.open('https://www.linkedin.com/feed/update/urn:li:activity:6651896607329533952')"></div>
         <div class="thought-description">
           <div class="thin">MARCH 2020</div>
@@ -241,7 +246,7 @@
       </div>
 
       <div class="thought">
-        <div class="thought-image-container"><img class="thought-image" src="assets/Cube.jpg"
+        <div class="thought-image-container"><img class="thought-image" src="assets/Cube.jpg" alt="thoughts-image"
             onClick="window.open('https://www.linkedin.com/feed/update/urn:li:activity:6643548902958084096')"></div>
         <div class="thought-description">
           <div class="thin">FEB 2020</div>
@@ -319,17 +324,17 @@
       <div class="link-container">
         <div>
           <div class="social-media-link" onClick="window.open('https://www.linkedin.com/in/jennifer-ousback-thorsen/')">
-            <img class="icon" src="assets/iconmonstr-linkedin-1.svg" /></div>
+            <img class="icon" src="assets/iconmonstr-linkedin-1.svg" alt="linkedin"></div>
           <p class="medialinks">LINKEDIN</p>
         </div>
         <div>
           <div class="social-media-link" onClick="window.open('https://github.com/Jenniferot')"><img class="icon"
-              src="assets/github.svg"></div>
+              src="assets/github.svg" alt="github"></div>
           <p class="medialinks">GITHUB</p>
         </div>
         <div>
           <div class="social-media-link" onClick="window.open('https://stackoverflow.com/c/technigo/users/68')"><img
-              class="icon" src="assets/slack.svg"></div>
+              class="icon" src="assets/slack.svg" alt="stackoverflow"></div>
           <p class="medialinks">STACK</p>
         </div>
       </div>
