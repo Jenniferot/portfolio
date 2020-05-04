@@ -12,11 +12,13 @@ p,
 div {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 1em;
-  color: darkslategray;
+  color: black;
 }
 
+div,
 p {
-  line-height: 1.7em;
+  line-height: 1.5em;
+  font-size: 1.05em;
 }
 
 a {
@@ -26,40 +28,147 @@ a {
 
 h1 {
   font-family: Montserrat;
-  font-size: 64px;
+  font-size: 66px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  color: white;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
   margin-top: 10px;
   margin-bottom: 10px;
   color: white;
+  line-height: 1.1em;
 }
 
 h3 {
-  font-family: Montserrat;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 300;
   margin: 0;
   color: white;
+  line-height: 1.2em;
+  color: rgb(175, 225, 217);
+}
+
+.name {
+  font-weight: 500;
 }
 
 h4 {
   font-family: Montserrat;
-  font-size: 1.2em;
+  font-size: 30px;
   font-weight: 700;
   margin-bottom: 12px;
   color: darkslategray;
   text-align: center;
 }
 
-span.bold {
-  font-weight: bold;
+.wrapper,
+.wrapper-grey,
+.wrapper-head,
+.wrapper-darkgrey {
+  padding-right: 10%;
+  padding-left: 10%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-section {
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.wrapper-grey {
+  background-color: whitesmoke;
+}
+
+.wrapper-darkgrey {
+  background-color: darkslategray;
+}
+
+.wrapper-head {
+  background-image: url(assets/Turkos2.jpg);
+  height: 500px;
+}
+
+.top-link-container {
   display: flex;
-  flex-direction: row;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.social-media-link,
+.social-media-link-header {
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  margin-right: 50px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.social-media-link {
+  border: 2px solid darkslategray;
+}
+
+.social-media-link-header {
+  border: 2px solid white;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.social-media-link:hover {
+  cursor: pointer;
+}
+
+.social-media-link-header:hover {
+  cursor: pointer;
+}
+
+.about-me {
+  align-self: flex-start;
+}
+
+.about-me-image {
+  height: 300px;
+  width: 300px;
+  border-radius: 200px;
+  border: 3px solid white;
+  overflow: hidden;
+  background-image: url(assets/J2rekt.jpg);
+  background-position: 0px -15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -200px;
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .about-me-image {
+    height: 200px;
+    width: 200px;
+    margin-top: -46px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
 }
 
 .section-header-container {
@@ -71,65 +180,40 @@ section {
 
 .section-header {
   /*  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(109, 164, 164), rgba(255, 0, 0, 0));*/
-  background-color: rgb(109, 164, 164);
-  padding-left: 20px;
-  padding-top: 5px;
-  padding-right: 20px;
-  padding-bottom: 5px;
+  /*background-color: rgb(109, 164, 164);*/
+  padding: 12px 14px 10px 14px;
   text-align: center;
   color: white;
   font-weight: 600;
-  font-size: 1.2em;
-  width: 150px;
+  font-size: 34px;
+  background-color: darkslategray;
+  margin-top: 1.5em;
+  margin-bottom: 1.2em;
+  ;
 }
 
+section,
 header {
-  margin-top: 0;
+  padding-left: 50px 10%;
+  padding-right: 50px 10%;
+  max-width: 1100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: row;
-}
-
-.about {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(97, 222, 222);
-  background-image: url(assets/Turkos2.jpg);
-  background-size: cover;
-}
-
-.about-me-container {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.about-me {
-  width: 60%;
-}
-
-.about-me-image {
-  height: 180px;
-  width: 180px;
-  border-radius: 200px;
-  border: 3px solid white;
-  overflow: hidden;
-  background-image: url(assets/J2rekt.jpg);
-  background-position: 0px -15px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  justify-self: end;
 }
 
 .summary {
-  background-color: whitesmoke;
   flex-direction: row;
   color: darkslategrey;
   justify-content: space-between;
+}
+
+.presentation {
+  font-family: Montserrat;
+  font-size: 21px;
+  line-height: 1.7em;
+  margin-top: 2.4em;
 }
 
 .tech {
@@ -138,7 +222,6 @@ header {
 }
 
 .projects {
-  background-color: whitesmoke;
   justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: row;
@@ -149,6 +232,10 @@ header {
   margin-bottom: 20px;
 }
 
+.project:hover {
+  cursor: pointer;
+}
+
 .project-image-container {
   background-color: darkslategray;
   margin-bottom: 10px;
@@ -156,32 +243,34 @@ header {
 
 .project-image {
   width: 100%;
-  opacity: 0.3;
+  opacity: 0.5;
+  margin-bottom: -8px;
 }
 
 .project-image:hover {
   opacity: 1.0;
+  cursor: pointer;
 }
 
 .project-description {
   margin-bottom: 8px;
+  margin-top: 18px;
 }
 
 .project-description .bold {
-  color: rgb(109, 164, 164);
+  color: rgb(81, 167, 167);
 }
 
 .project-link {
-  color: red;
+  color: rgb(81, 167, 167);
   font-weight: 900;
 }
 
-
 .tech-label {
-  background-color: rgb(252, 197, 193);
+  background-color: rgb(242, 205, 202);
   font-size: 0.7em;
-  padding: 3px 10px;
-  margin: 2px;
+  padding: 2px 6px;
+  margin: 1px;
   color: black;
 }
 
@@ -213,13 +302,15 @@ header {
 .thought .thin {
   color: rgb(109, 164, 164);
   font-weight: 300;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
+  margin-top: 4px;
 }
 
 .thought .bold {
   color: darkslategray;
   font-size: 1.1em;
   font-weight: 700;
+  margin-bottom: -11px;
 }
 
 .thought-image-container {
@@ -230,12 +321,11 @@ header {
   width: 100%;
 }
 
-.thought-description {
-  margin-top: 5px;
+.thought-image:hover {
+  cursor: pointer;
 }
 
 .skills {
-  background-color: whitesmoke;
   justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: row;
@@ -245,6 +335,7 @@ header {
   width: 30%;
   margin-bottom: 20px;
   text-align: center;
+  ;
 }
 
 .skill h5 {
@@ -257,6 +348,7 @@ header {
 .skill p {
   margin-bottom: 0;
   margin-top: 2px;
+  line-height: 1.5em;
 }
 
 
@@ -276,29 +368,25 @@ header {
   font-size: 0.8em;
 }
 
-.social-media-link {
-  height: 80px;
-  width: 80px;
-  border-radius: 80px;
-  border: 2px solid darkslategray;
-  margin-right: 10px;
-  margin-left: 10px;
-  display: flex;
-  flex-direction: column;
-}
 
 .icon {
-  height: 40px;
-  width: 40px;
-  margin-top: 20px;
+  height: 36px;
+  width: 36px;
+  margin-top: 22px;
   align-self: center;
+}
+
+.medialinks {
+  font-weight: 700;
+  color: darkslategrey;
+  font-size: 7px;
 }
 
 .footer {
   display: block;
-  background-color: darkslategray;
   text-align: center;
   color: white;
+  margin-bottom: 20px;
 }
 
 .footer p {
@@ -308,6 +396,5 @@ header {
 
 .footer h4 {
   font-size: 1.2em;
-  margin-bottom: 0;
   color: white;
 }

@@ -14,280 +14,336 @@
 </head>
 
 <body>
-
   <!-- Page header - links to social media and navigation -->
-  <header id="about" name="about" class="about">
-    <div class="about-me-container">
-      <div class="about-me">
-        <h3>PORTFOLIO <span class="bold">JENNIFER THORSÉN</span></h3>
-        <h1>frontend developer</h1>
-        <h3>+ graphic designer</h3>
+  <div class="wrapper-head">
+    <section class="about">
+      <div class="top-link-container">
+        <div class="social-media-link-header"
+          onClick="window.open('https://www.linkedin.com/in/jennifer-ousback-thorsen/')">
+          <img class="icon" src="assets/iconmonstr-linkedin-1-1.svg" /></div>
+        <div>
+          <div class="social-media-link-header" onClick="window.open('https://github.com/Jenniferot')"><img class="icon"
+              src="assets/github-1.svg"></div>
+        </div>
+        <div>
+          <div class="social-media-link-header" onClick="window.open('https://stackoverflow.com/c/technigo/users/68')">
+            <img class="icon" src="assets/slack 2.svg"></div>
+        </div>
       </div>
-
+      <div id="about" name="about" class="about">
+        <div class="about-me">
+          <h3>PORTFOLIO <span class="name">JENNIFER THORSÉN</span></h3>
+          <h1>frontend </br> developer</h1>
+          <h2>+ graphic designer</h2>
+        </div>
+      </div>
       <div class="about-me-image"></div>
-    </div>
-
-    <div class="page-navigation"><a href="#summary">BIO</a> | <a href="#tech">TECH</a> | <a
-        href="#projects">PROJECTS</a>
-      | <a href="#thoughts">THOUGHTS</a> | <a href="#skills">SKILLS</a> | <a href="#social-media">CONTACT</a></div>
-  </header>
+      <!-- <div class="page-navigation"><a href="#summary">BIO</a> | <a href="#tech">TECH</a> | <a
+          href="#projects">PROJECTS</a>
+        | <a href="#thoughts">THOUGHTS</a> | <a href="#skills">SKILLS</a> | <a href="#social-media">CONTACT</a></div>
+    -->
+    </section>
+  </div>
 
   <!-- Summary section - my short bio -->
-  <section id="summary" name="summary" class="summary">
-    <div>
-      <div class="decoration-wrapper">
-        <div class="line"></div>
-        <div class="circle"></div>
-      </div>
-      <p class="presentation">Art director and graphic designer now studying front end development. After working with
-        print my entire career I decided to enter the digital world and learn how to code, so in january 2020 I
-        started my journey with Technigo.</p>
+  <div class="wrapper-grey">
+    <section id="summary" name="summary" class="summary">
+      <div>
+        <div class="decoration-wrapper">
+          <div class="line"></div>
+          <div class="circle"></div>
+        </div>
+        <p class="presentation">Front end developer student with a background as graphic designer and art director.
+          After working with print my entire career I decided to enter the digital world and learn how to code, so in
+          january 2020 I started my journey with Technigo.</br></br>
 
-      <p class="presentation">I'm all about details and functionality and now superexcited to put my new skills to work.
-        A team player always
-        going for the best solution of a problem. Skills: Art direction, graphic design, HTML, CSS, Javascript, React,
-        Photoshop, web editor – and I'm also pretty good at solving Rubiks cube.
-      </p>
-    </div>
-  </section>
+          I'm all about details and functionality and now superexcited to put my new skills to work. A team player
+          always going for the best solution of a problem. Skills: Art direction, graphic design, HTML, CSS, Javascript,
+          React, Photoshop, web editor - and I’m also pretty good at solving Rubik’s cube and playing table tennis.
+        </p>
+      </div>
+    </section>
+  </div>
 
   <!-- Tech section - list of the techs that I know -->
-
-  <section id="tech" name="tech" class="tech">
-    <div class="section-header-container">
-      <h4 class="section-header">TECH</h4>
-    </div>
-    <div class="presentation">React.js, React Native, HTML5, CSS3, Flexbox, Javascript ES6, JSX, Adobe Photoshop,
-      Indesign, Node.js, Redux</div>
-  </section>
+  <div class="wrapper">
+    <section id="tech" name="tech" class="tech">
+      <div class="section-header-container">
+        <h4 class="section-header">TECH</h4>
+      </div>
+      <div class="presentation">React.js, React Native, HTML5, CSS3, Flexbox, Javascript ES6, JSX, Adobe Photoshop,
+        Indesign, Node.js, Redux</div>
+    </section>
+  </div>
 
   <!-- Projects section - showcase and links to my weekly Technigo projects -->
-
-  <section id="projects" name="projects" class="projects">
-    <div class="section-header-container">
-      <h4 class="section-header">PROJECTS</h4>
-    </div>
-
-    <div class="project">
-      <div class="project-image-container"><img class="project-image" src="assets/Project-Movies2.png"></div>
-      <div class="project-description"><span class="bold">POPULAR MOVIES SITE.</span> A multi-page React application
-        that shows the most popular movies in the US. Built in React using useState, useEffects, Route, Switch and
-        BrowserRouter to enable the functionality in this project. <a class="project-link" href="#">>></a></div>
-      <div class="project-tech">
-        <span class="tech-label">React</span>
-        <span class="tech-label">HTML5</span>
-        <span class="tech-label">CSS3</span>
-        <span class="tech-label">API</span>
+  <div class="wrapper-grey">
+    <section id="projects" name="projects" class="projects">
+      <div class="section-header-container">
+        <h4 class="section-header">PROJECTS</h4>
       </div>
-    </div>
 
-    <div class="project">
-      <div class="project-image-container"><img class="project-image" src="assets/Virus.png"></div>
-      <div class="project-description"><span class="bold">QUARANTINE ACTIVITY GENERATOR.</span> An app bulit in react
-        native, using react navigation to navigate to another page, and styled components for styling. <a
-          class="project-link" href="#">>></a></div>
-      <div class="project-tech">
-        <span class="tech-label">HTML5</span>
-        <span class="tech-label">CSS3</span>
-        <span class="tech-label">API</span>
-        <span class="tech-label">Javascript ES6</span>
-      </div>
-    </div>
-
-
-    <div class="project">
-      <div class="project-image-container"><img class="project-image" src="assets/Weather-App.png"></div>
-      <div class="project-description"><span class="bold">WEATHER APP.</span> A weather web app that shows today's
-        weather and temperature, and a 5-day forecast using a weather API. <a class="project-link" href="#">>></a></div>
-      <div class="project-tech">
-        <span class="tech-label">HTML5</span>
-        <span class="tech-label">CSS3</span>
-        <span class="tech-label">API</span>
-        <span class="tech-label">Javascript ES6</span>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="project-image-container"><img class="project-image" src="assets/Project-Cluedo.png"></div>
-      <div class="project-description"><span class="bold">CLUEDO.</span> This project was to recreate parts of the
-        classic board game Cluedo. One of the first projects built with Javascript. <a class="project-link"
-          href="#">>></a></div>
-      <div class="project-tech">
-        <span class="tech-label">HTML5</span>
-        <span class="tech-label">CSS3</span>
-        <span class="tech-label">SASS</span>
-        <span class="tech-label">API</span>
-      </div>
-    </div>
-    <div class="projects-other">
-      <H4 class="sub-headline">MORE PROJECTS</H4>
-      <div class="project-other">
-        <div class="project-description"><span class="bold">SURVEY FORM WITH REACT.</span> A survey form built in react,
-          when submitted, it shows a summary of the answers. <a class="project-link" href="#">>></a></div>
+      <div class="project" onClick="window.open('https://github.com/Jenniferot/project-movies')">
+        <div class="project-image-container"><img class="project-image" src="assets/NYProject-Movies2.jpg"></div>
+        <div class="project-description"><span class="bold">POPULAR MOVIES SITE.</span> A multi-page React application
+          that shows the most popular movies in the US. Built in React using useState, useEffects, Route, Switch and
+          BrowserRouter to enable the functionality in this project. <a class="project-link"
+            href="https://github.com/Jenniferot/project-movies">>></a></div>
         <div class="project-tech">
           <span class="tech-label">React</span>
           <span class="tech-label">HTML5</span>
           <span class="tech-label">CSS3</span>
+          <span class="tech-label">API</span>
         </div>
       </div>
 
-      <div class="project-other">
-        <div class="project-description"><span class="bold">QUIZ GAME.</span> A quiz game built using redux. This game
-          about Harry Potter will reveal if you're a Potterhead or not. <a class="project-link" href="#">>></a></div>
+      <div class="project" onClick="window.open('https://github.com/Jenniferot/project-react-native-app')">
+        <div class="project-image-container"><img class="project-image" src="assets/NYVirus.png"></div>
+        <div class="project-description"><span class="bold">QUARANTINE ACTIVITY GENERATOR.</span> An app bulit in react
+          native, using react navigation to navigate to another page, and styled components for styling. <a
+            class="project-link" href="https://github.com/Jenniferot/project-react-native-app">>></a></div>
+        <div class="project-tech">
+          <span class="tech-label">HTML5</span>
+          <span class="tech-label">CSS3</span>
+          <span class="tech-label">API</span>
+          <span class="tech-label">Javascript ES6</span>
+        </div>
+      </div>
+
+
+      <div class="project" onClick="window.open('https://github.com/Jenniferot/project-todos')">
+        <div class="project-image-container"><img class="project-image" src="assets/NYTodo.jpg"></div>
+        <div class="project-description"><span class="bold">TODO APP.</span> A ToDo-list that list todo-tasks. Marked as
+          complete or uncomplete with a counter. Duedate and categories can be choosen. The list can be filtered by
+          category. <a class="project-link" href="https://github.com/Jenniferot/project-todos">>></a>
+        </div>
         <div class="project-tech">
           <span class="tech-label">React</span>
           <span class="tech-label">Redux</span>
           <span class="tech-label">HTML5</span>
           <span class="tech-label">CSS3</span>
-          <span class="tech-label">SASS</span>
-        </div>
-      </div>
-
-      <div class="project-other">
-        <div class="project-description"><span class="bold">HAPPY THOUGHTS.</span> A "Happy Thoughts" webpage in react.
-          Fetching and posting data to an API with thoughts that you can like-click. <a class="project-link"
-            href="#">>></a></div>
-        <div class="project-tech">
-          <span class="tech-label">React</span>
-          <span class="tech-label">HTML5</span>
-          <span class="tech-label">CSS3</span>
-          <span class="tech-label">Moment.js</span>
-        </div>
-      </div>
-
-      <div class="project-other">
-        <div class="project-description"><span class="bold">MUSIC RELEASES.</span> A website that shows new album and
-          single releases. Built in React with components using data from Spotify. <a class="project-link"
-            href="#">>></a></div>
-        <div class="project-tech">
-          <span class="tech-label">React</span>
-          <span class="tech-label">HTML5</span>
-          <span class="tech-label">CSS3</span>
-        </div>
-      </div>
-
-      <div class="project-other">
-        <div class="project-description"><span class="bold">FOOD REVIEW SITE.</span> A website that lists restaurants,
-          reviews and information based on location. All data was fetched from the Zomato API. We worked in teams using
-          GitHub to merge three different branches into one. <a class="project-link" href="#">>></a></div>
-        <div class="project-tech">
-          <span class="tech-label">HTML5</span>
-          <span class="tech-label">CSS3</span>
           <span class="tech-label">Javascript ES6</span>
         </div>
       </div>
-    </div>
 
-  </section>
+      <div class="project" onClick="window.open('https://github.com/Jenniferot/project-cluedo')">
+        <div class="project-image-container"><img class="project-image" src="assets/NYProject-Cluedo.jpg"></div>
+        <div class="project-description"><span class="bold">CLUEDO.</span> This project was to recreate parts of the
+          classic board game Cluedo. One of the first projects built with Javascript. <a class="project-link"
+            href="https://github.com/Jenniferot/project-cluedo">>></a></div>
+        <div class="project-tech">
+          <span class="tech-label">HTML5</span>
+          <span class="tech-label">CSS3</span>
+          <span class="tech-label">SASS</span>
+          <span class="tech-label">API</span>
+        </div>
+      </div>
 
+      <div class="projects-other">
+        <H4 class="sub-headline">MORE PROJECTS</H4>
+
+        <div class="project-other">
+          <div class="project-description"><span class="bold">WEATHER APP.</span> A weather web app that shows today's
+            weather and temperature, and a 5-day forecast using a weather API. <a class="project-link"
+              href="https://github.com/Jenniferot/project-weather-app">>></a>
+          </div>
+          <div class="project-tech">
+            <span class="tech-label">HTML5</span>
+            <span class="tech-label">CSS3</span>
+            <span class="tech-label">API</span>
+            <span class="tech-label">Javascript ES6</span>
+          </div>
+        </div>
+
+        <div class="project-other">
+          <div class="project-description"><span class="bold">SURVEY FORM WITH REACT.</span> A survey form built in
+            react,
+            when submitted, it shows a summary of the answers. <a class="project-link"
+              href="https://github.com/Jenniferot/project-survey">>></a></div>
+          <div class="project-tech">
+            <span class="tech-label">React</span>
+            <span class="tech-label">HTML5</span>
+            <span class="tech-label">CSS3</span>
+          </div>
+        </div>
+
+        <div class="project-other">
+          <div class="project-description"><span class="bold">QUIZ GAME.</span> A quiz game built using redux. This game
+            about Harry Potter will reveal if you're a Potterhead or not. <a class="project-link"
+              href="https://github.com/Jenniferot/project-redux-quiz-tigers">>></a></div>
+          <div class="project-tech">
+            <span class="tech-label">React</span>
+            <span class="tech-label">Redux</span>
+            <span class="tech-label">HTML5</span>
+            <span class="tech-label">CSS3</span>
+            <span class="tech-label">SASS</span>
+          </div>
+        </div>
+
+        <div class="project-other">
+          <div class="project-description"><span class="bold">HAPPY THOUGHTS.</span> A "Happy Thoughts" webpage in
+            react.
+            Fetching and posting data to an API with thoughts that you can like-click. <a class="project-link"
+              href="https://github.com/Jenniferot/project-happy-thoughts">>></a></div>
+          <div class="project-tech">
+            <span class="tech-label">React</span>
+            <span class="tech-label">HTML5</span>
+            <span class="tech-label">CSS3</span>
+            <span class="tech-label">Moment.js</span>
+          </div>
+        </div>
+
+        <div class="project-other">
+          <div class="project-description"><span class="bold">MUSIC RELEASES.</span> A website that shows new album and
+            single releases. Built in React with components using data from Spotify. <a class="project-link"
+              href="https://github.com/Jenniferot/project-music-releases">>></a></div>
+          <div class="project-tech">
+            <span class="tech-label">React</span>
+            <span class="tech-label">HTML5</span>
+            <span class="tech-label">CSS3</span>
+          </div>
+        </div>
+
+        <div class="project-other">
+          <div class="project-description"><span class="bold">FOOD REVIEW SITE.</span> A website that lists restaurants,
+            reviews and information based on location. All data was fetched from the Zomato API. We worked in teams
+            using
+            GitHub to merge three different branches into one. <a class="project-link"
+              href="https://github.com/Jenniferot/project-food-tigers">>></a></div>
+          <div class="project-tech">
+            <span class="tech-label">HTML5</span>
+            <span class="tech-label">CSS3</span>
+            <span class="tech-label">Javascript ES6</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </div>
   <!-- Thoughts section - links to my stuff on Linkedin -->
-  <section id="thoughts" name="thoughts" class="thoughts">
-    <div class="section-header-container">
-      <h4 class="section-header">THOUGHTS</h4>
-    </div>
-
-    <div class="thought">
-      <div class="thought-image-container"><img class="thought-image" src="assets/heart1.jpg"></div>
-      <div class="thought-description">
-        <div class="thin">MARCH 2020</div>
-        <div class="bold">Learning to love… errrors! A work in progress</div>
-        <p>Isn’t it the best feeling when things run smoothly and you’re on top of things? But if you really want to
-          learn something from a process maybe it shouldn’t go too smoothly. And this insight is what I’m dealing with
-          right now. <a class="project-link" href="#">>></a></p>
+  <div class="wrapper">
+    <section id="thoughts" name="thoughts" class="thoughts">
+      <div class="section-header-container">
+        <h4 class="section-header">THOUGHTS</h4>
       </div>
-    </div>
 
-    <div class="thought">
-      <div class="thought-image-container"><img class="thought-image" src="assets/Cube.jpg"></div>
-      <div class="thought-description">
-        <div class="thin">FEB 2020</div>
-        <div class="bold">The friendly community</div>
-        <p>A few years ago I entered for me an entirely new community that was very inspiring. My son started to compete
-          in speedcubing, that is solving Rubiks cube as fast as you can. After a couple of years I finally found the
-          courage to compete myself. <a class="project-link" href="#">>></a></p>
+      <div class="thought">
+        <div class="thought-image-container"><img class="thought-image" src="assets/heart1.jpg"
+            onClick="window.open('https://www.linkedin.com/feed/update/urn:li:activity:6651896607329533952')"></div>
+        <div class="thought-description">
+          <div class="thin">MARCH 2020</div>
+          <div class="bold">Learning to love… errrors! A work in progress</div>
+          <p>Isn’t it the best feeling when things run smoothly and you’re on top of things? But if you really want to
+            learn something from a process maybe it shouldn’t go too smoothly. And this insight is what I’m dealing with
+            right now. <a class="project-link"
+              href="https://www.linkedin.com/feed/update/urn:li:activity:6651896607329533952/">>></a></p>
+        </div>
       </div>
-    </div>
 
-    <div class="thought">
-      <div class="thought-image-container"><img class="thought-image" src="assets/Project-Movies2.png"></div>
-      <div class="thought-description">
-        <div class="thin">JAN 2020</div>
-        <div class="bold">First sprint of Technigos frontend developer bootcamp done!</div>
-        <p>I started this program less then a month ago and I think I’ve never learnt so much within four weeks in my
-          entire life. It’s a ride that takes me fast down the lane of developing skills and understanding how the tech
-          industry works. A new world to me who’ve been working with print my entire career. <a class="project-link"
-            href="#">>></a></p>
+      <div class="thought">
+        <div class="thought-image-container"><img class="thought-image" src="assets/Cube.jpg"
+            onClick="window.open('https://www.linkedin.com/feed/update/urn:li:activity:6643548902958084096')"></div>
+        <div class="thought-description">
+          <div class="thin">FEB 2020</div>
+          <div class="bold">The friendly community</div>
+          <p>A few years ago I entered for me an entirely new community that was very inspiring. My son started to
+            compete
+            in speedcubing, that is solving Rubiks cube as fast as you can. After a couple of years I finally found the
+            courage to compete myself. <a class="project-link"
+              href="https://www.linkedin.com/feed/update/urn:li:activity:6643548902958084096/">>></a></p>
+        </div>
       </div>
-    </div>
 
-  </section>
+      <div class="thought">
+        <div class="thought-image-container"><img class="thought-image" src=""
+            onClick="window.open('https://www.linkedin.com/feed/update/urn:li:activity:6633440091501015040/')"></div>
+        <div class="thought-description">
+          <div class="thin">JAN 2020</div>
+          <div class="bold">First sprint of Technigos frontend developer bootcamp done!</div>
+          <p class="thought-description">I started this program less then a month ago and I think I’ve never learnt so
+            much within four weeks in my
+            entire life. It’s a ride that takes me fast down the lane of developing skills and understanding how the
+            tech
+            industry works. A new world to me who’ve been working with print my entire career. <a class="project-link"
+              href="https://www.linkedin.com/feed/update/urn:li:activity:6633440091501015040/">>></a></p>
+        </div>
+      </div>
+
+    </section>
+  </div>
 
   <!-- Skills section - listing my tech skills -->
-  <section id="skills" name="skills" class="skills">
-    <div class="section-header-container">
-      <h4 class="section-header">SKILLS</h4>
-    </div>
+  <div class="wrapper-grey">
+    <section id="skills" name="skills" class="skills">
+      <div class="section-header-container">
+        <h4 class="section-header">SKILLS</h4>
+      </div>
 
-    <div class="skill">
-      <h5>CODE</h5>
-      <p>HTML5</p>
-      <p>Javascript ES6</p>
-      <p>Github</p>
-      <p>React</p>
-      <p>React Native</p>
-      <p>Redux</p>
-    </div>
+      <div class="skill">
+        <h5>CODE</h5>
+        <p>HTML5</p>
+        <p>Javascript ES6</p>
+        <p>Github</p>
+        <p>React</p>
+        <p>React Native</p>
+        <p>Redux</p>
+      </div>
 
-    <div class="skill">
-      <h5>TOOLBOX</h5>
-      <p>Photoshop</p>
-      <p>Illustrator</p>
-      <p>Indesign</p>
-      <p>Postman</p>
-      <p>Figma</p>
-      <p>Github</p>
-    </div>
+      <div class="skill">
+        <h5>TOOLBOX</h5>
+        <p>Photoshop</p>
+        <p>Illustrator</p>
+        <p>Indesign</p>
+        <p>Postman</p>
+        <p>Figma</p>
+        <p>Github</p>
+      </div>
 
-    <div class="skill">
-      <h5>MORE</h5>
-      <p>Graphic design</p>
-      <p>Branding</p>
-      <p>Agile</p>
-      <p>Responsive Web</p>
-      <p>Accessibility</p>
-    </div>
+      <div class="skill">
+        <h5>MORE</h5>
+        <p>Graphic design</p>
+        <p>Branding</p>
+        <p>Agile</p>
+        <p>Responsive Web</p>
+        <p>Accessibility</p>
+      </div>
 
-  </section>
-
+    </section>
+  </div>
   <!-- Social media contact section - ways to contact me on social media -->
-  <section id="social-media" name="social-media" class="social-media">
-    <div class="section-header-container">
-      <h4 class="section-header">SOCIAL MEDIA</h4>
+  <div class="wrapper">
+    <div id="social-media" name="social-media" class="social-media">
+      <div class="section-header-container">
+        <h4 class="section-header">FOR MORE</h4>
+      </div>
+      <div class="link-container">
+        <div>
+          <div class="social-media-link" onClick="window.open('https://www.linkedin.com/in/jennifer-ousback-thorsen/')">
+            <img class="icon" src="assets/iconmonstr-linkedin-1.svg" /></div>
+          <p class="medialinks">LINKEDIN</p>
+        </div>
+        <div>
+          <div class="social-media-link" onClick="window.open('https://github.com/Jenniferot')"><img class="icon"
+              src="assets/github.svg"></div>
+          <p class="medialinks">GITHUB</p>
+        </div>
+        <div>
+          <div class="social-media-link" onClick="window.open('https://stackoverflow.com/c/technigo/users/68')"><img
+              class="icon" src="assets/slack.svg"></div>
+          <p class="medialinks">STACK</p>
+        </div>
+      </div>
     </div>
-    <div class="link-container">
-      <div>
-        <div class="social-media-link"><img class="icon" src="assets/iconmonstr-linkedin-1.svg" /></div>
-        <p>LINKEDIN</p>
-      </div>
-      <div>
-        <div class="social-media-link"><img class="icon" src="assets/github.svg"></div>
-        <p>GITHUB</p>
-      </div>
-      <div>
-        <div class="social-media-link"><img class="icon" src="assets/slack.svg"></div>
-        <p>STACK</p>
-      </div>
-    </div>
-  </section>
+  </div>
   </section>
 
   <!-- Footer section - my contact details -->
-  <section id="footer" name="footer" class="footer">
-    <h4>CONTACT</h4>
-    <p>Jennifer Thorsen</p>
-    <p>073-98 21 600</p>
-    <p><a href="mailto:jennifer.o.thorsen@gmail.com">jennifer.o.thorsen@gmail.com</a></p>
-  </section>
-
-
+  <div class="wrapper-darkgrey">
+    <div id="footer" name="footer" class="footer">
+      <h4>CONTACT</h4>
+      <p>Jennifer Thorsen</p>
+      <p>073-98 21 600</p>
+      <p><a href="mailto:jennifer.o.thorsen@gmail.com">jennifer.o.thorsen@gmail.com</a></p>
+    </div>
+  </div>
 </body>
