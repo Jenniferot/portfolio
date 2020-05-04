@@ -1,5 +1,6 @@
 h1 {
   font-size: 40px;
+  margin-top: 8px;
 }
 
 h2 {
@@ -7,7 +8,7 @@ h2 {
 }
 
 h3 {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 h4 {
@@ -70,7 +71,7 @@ section {
 .about-me-image {
   height: 160px;
   width: 160px;
-  margin-top: 18px;
+  margin-top: 30px;
 }
 
 .page-navigation {
@@ -89,14 +90,14 @@ section {
 .line {
   width: 40px;
   height: 3px;
-  background: rgb(255, 87, 75)
+  background: darkslategray;
 }
 
 .circle {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: rgb(255, 87, 75);
+  background: darkslategray;
   margin-left: -1px;
 }
 
