@@ -31,7 +31,7 @@ h1 {
   font-size: 66px;
   margin-top: 12px;
   margin-bottom: 10px;
-  color: rgb(38, 126, 113);
+  color: rgb(23, 108, 95);
   line-height: 1.1em;
 }
 
@@ -41,7 +41,7 @@ h2 {
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 10px;
-  color: rgb(38, 126, 113);
+  color: rgb(23, 108, 95);
   line-height: 1.1em;
 }
 
@@ -88,12 +88,19 @@ h4 {
 }
 
 .wrapper-head {
-  background-image: url(assets/background2\ copy.jpg);
+  background-image: url(assets/background3.jpg);
   height: 500px;
 }
 
 .top-link-container {
   display: flex;
+}
+
+.icon-header {
+  height: 36px;
+  width: 36px;
+  margin-top: 22px;
+  align-self: center;
 }
 
 .about {
@@ -122,8 +129,10 @@ h4 {
 
 .social-media-link-header {
   border: 2px solid white;
-  margin-right: 5px;
+  margin-right: 0px;
   margin-left: 5px;
+  height: 80px;
+  width: 80px;
 }
 
 .social-media-link:hover {
@@ -155,7 +164,7 @@ h4 {
   .about-me-image {
     height: 200px;
     width: 200px;
-    margin-top: -36px;
+    margin-top: 15px;
   }
 
   h1 {
@@ -168,6 +177,21 @@ h4 {
 
   h3 {
     font-size: 14px;
+  }
+
+  .social-media-link-header {
+    border: 1.5px solid white;
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-bottom: 0;
+  }
+
+  .icon-header {
+    height: 20px;
+    width: 20px;
+    margin-top: 9px;
+    align-self: center;
   }
 }
 
@@ -186,7 +210,7 @@ h4 {
   color: white;
   font-weight: 600;
   font-size: 34px;
-  background-color: rgb(81, 167, 167);
+  background-color: rgb(23, 108, 95);
   margin-top: 1.5em;
   margin-bottom: 1.2em;
   ;
@@ -245,13 +269,13 @@ header {
 }
 
 .project-image-container {
-  background-color: darkslategray;
+  background-color: darkslategrey;
   margin-bottom: 10px;
 }
 
 .project-image {
   width: 100%;
-  opacity: 0.5;
+  opacity: 0.8;
   margin-bottom: -8px;
 }
 
@@ -266,17 +290,17 @@ header {
 }
 
 .project-description .bold {
-  color: rgb(81, 167, 167);
+  color: rgb(72, 152, 152);
   font-weight: 700;
 }
 
 .project-link {
-  color: rgb(81, 167, 167);
+  color: rgb(72, 152, 152);
   font-weight: 900;
 }
 
 .tech-label {
-  background-color: rgb(255, 201, 159);
+  background-color: rgba(210, 203, 196, 0.687);
   font-size: 0.7em;
   padding: 2px 6px;
   margin: 1px;
@@ -309,7 +333,7 @@ header {
 }
 
 .thought .thin {
-  color: rgb(109, 164, 164);
+  color: rgb(72, 152, 152);
   font-weight: 300;
   margin-bottom: 4px;
   margin-top: 4px;
