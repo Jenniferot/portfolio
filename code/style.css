@@ -150,7 +150,7 @@ h4 {
 .about-me-image {
   height: 300px;
   width: 300px;
-  border-radius: 200px;
+  border-radius: 300px;
   border: 3px solid white;
   overflow: hidden;
   background-image: url(assets/J3rekt.jpg);
